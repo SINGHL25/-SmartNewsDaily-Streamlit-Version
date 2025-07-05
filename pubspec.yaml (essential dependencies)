@@ -1,1 +1,20 @@
+name: smartnewsdaily
+description: A cross-platform daily news app.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.7.1
+  provider: ^6.0.5
+  webview_flutter: ^4.0.7
+  flutter_tts: ^4.0.2
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/demo_ads/
 
